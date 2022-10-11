@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Form Validation using Javascript</h1>
+    <form class="form" id="form">
+            <div class="field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+            </div>
+            <span id="suname"></span>
+            <div class="field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" id="email" placeholder="Email Address">
+            </div>
+            <span id="semail">Error</span>
+            <div class="field">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" name="phone" id="phone" placeholder="Phone Number">
+            </div>
+            <span id="sphone">Error</span>
+            <div class="field">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="date" name="dob" id="dob" placeholder="Date of Birth">
+            </div>
+            <span id="sdob">Error</span>
+            <div class="field">
+                <i class="fa-solid fa-box"></i>
+                <input type="text" name="work" id="work" placeholder="Your Work">
+            </div>
+            <span id="swork">Error</span>
+            <div class="field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <span id="spassword">Error</span>
+            <div class="field">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password">
+            </div>
+            <span id="scpassword">Error</span>
+            <div class="field">
+                <input type="checkbox" id="check"><br>
+                <label for="check" style="color: rgb(105, 105, 105);">I acept the term and conditions for signing up to this service, and hereby confirm I have read the privacy policy</label>
+            </div>
+            <span id="scheck">Error</span>
+            <div class="field" style="background-color: #f0a500; margin: 8px; max-width: 200px; text-align: center; color: #222; font-weight: bold; cursor: pointer;">
+                <input type="submit" value="Submit" class="btn" style="cursor: pointer;">
+            </div>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
